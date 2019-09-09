@@ -10,13 +10,18 @@
         First name: <form:input path="firstName" />         
         <br><br>  
         Last name: <form:input path="lastName" />  
-        <br><br>  
-        Email: <form:input path = "email" />
         <br><br>
         Gender: 
         Male <form:radiobutton path = "Gender" value = "Male" />
         Female <form:radiobutton path = "Gender" value = "Female" />
         Other <form:radiobutton path = "Gender" value = "Other" />
+        <br><br>
+        Seat:  
+        Sleeper Class<form:checkbox path="Seat" value="Sleeper Class"/>  
+        1st Class<form:checkbox path="Seat" value="1st Class"/>  
+        2nd Class<form:checkbox path="Seat" value="2nd Class"/>  
+        <br><br>  
+        Email: <form:input path = "email" />
         <br><br>
         Password: <form:input path ="password" />
         <br><br>
