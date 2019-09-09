@@ -16,11 +16,29 @@
         Female <form:radiobutton path = "Gender" value = "Female" />
         Other <form:radiobutton path = "Gender" value = "Other" />
         <br><br>
-        Seat:  
+        Seats:  
         Sleeper Class<form:checkbox path="Seat" value="Sleeper Class"/>  
         1st Class<form:checkbox path="Seat" value="1st Class"/>  
         2nd Class<form:checkbox path="Seat" value="2nd Class"/>  
         <br><br>  
+        Leaving from: <form:select path="cityFrom">  
+        <form:option value="Select" label="<select>"/>
+        <form:option value="Kolkata" label="Kolkata"/> 
+        <form:option value="Delhi" label="Delhi"/> 
+        <form:option value="Orissa" label="Orissa"/>  
+        <form:option value="Assam" label="Assam"/>  
+        <form:option value="Amristar" label="Amristar"/>  
+        </form:select>  
+        <br><br>  
+        Going to: <form:select path="cityTo">  
+        <form:option value="Select" label="<select>"/>
+        <form:option value="Kolkata" label="Kolkata"/>
+        <form:option value="Delhi" label="Delhi"/>  
+        <form:option value="Orissa" label="Orissa"/>  
+        <form:option value="Assam" label="Assam"/>  
+        <form:option value="Amristar" label="Amristar"/>  
+        </form:select>  
+        <br><br>
         Email: <form:input path = "email" />
         <br><br>
         Password: <form:input path ="password" />
