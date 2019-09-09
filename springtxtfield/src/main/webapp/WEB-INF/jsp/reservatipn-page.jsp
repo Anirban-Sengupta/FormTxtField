@@ -13,6 +13,11 @@
         <br><br>  
         Email: <form:input path = "email" />
         <br><br>
+        Gender: 
+        Male <form:radiobutton path = "Gender" value = "Male" />
+        Female <form:radiobutton path = "Gender" value = "Female" />
+        Other <form:radiobutton path = "Gender" value = "Other" />
+        <br><br>
         Password: <form:input path ="password" />
         <br><br>
         <input type="submit" value="Submit" />      
