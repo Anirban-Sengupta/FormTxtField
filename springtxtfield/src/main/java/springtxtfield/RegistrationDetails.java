@@ -4,6 +4,7 @@ public class RegistrationDetails {
 	private String FirstName;
 	private String LastName;
 	private String Email;
+	private String Gender;
 	private String Password;
 	
 	public RegistrationDetails() {
@@ -32,6 +33,14 @@ public class RegistrationDetails {
 
 	public void setEmail(String email) {
 		Email = email;
+	}
+	
+	public String getGender() {
+		return Gender;
+	}
+
+	public void setGender(String gender) {
+		Gender = gender;
 	}
 
 	public String getPassword() {
