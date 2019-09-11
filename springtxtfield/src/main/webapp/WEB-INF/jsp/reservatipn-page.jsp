@@ -27,7 +27,7 @@
         <form:option value="Delhi" label="Delhi"/> 
         <form:option value="Orissa" label="Orissa"/>  
         <form:option value="Assam" label="Assam"/>  
-        <form:option value="Amristar" label="Amristar"/>  
+        <form:option value="Amritsar" label="Amritsar"/>  
         </form:select>  
         <br><br>  
         Going to: <form:select path="cityTo">  
@@ -36,12 +36,12 @@
         <form:option value="Delhi" label="Delhi"/>  
         <form:option value="Orissa" label="Orissa"/>  
         <form:option value="Assam" label="Assam"/>  
-        <form:option value="Amristar" label="Amristar"/>  
+        <form:option value="Amritsar" label="Amritsar"/>  
         </form:select>  
         <br><br>
         Email: <form:input path = "email" />
         <br><br>
-        Password: <form:input path ="password" />
+        Password: <form:password path ="password" />
         <br><br>
         <input type="submit" value="Submit" />      
     </form:form>  
